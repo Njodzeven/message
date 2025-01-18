@@ -5,12 +5,12 @@ function WhoseGirl() {
   const [name, setName] = useState("");
   const navigate = useNavigate();
 
-  const handleInputChange = (e) => {
+const handleInputChange = (e) => {
     setName(e.target.value);
-    if (e.target.value.toLowerCase() === "njodzeven") {
-      setTimeout(() => navigate("/love-you"), 1000); // Delay for fun!
+    if (e.target.value.toLowerCase() === "njodzeven" || e.target.value.toLowerCase() === "buhnyuy" || e.target.value.toLowerCase() === "njodzeven buhnyuy") {
+        setTimeout(() => navigate("/love-you"), 1000); // Delay for fun!
     }
-  };
+};
 
   return (
     <div className="container">
