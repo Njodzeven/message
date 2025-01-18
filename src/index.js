@@ -11,7 +11,7 @@ import "./index.css";
 ReactDOM.render(
   <Router basename={process.env.PUBLIC_URL}>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route exact path="/" element={<App />} />
       <Route path="/are-you-sure" element={<AreYouSure />} />
       <Route path="/whose-girl" element={<WhoseGirl />} />
       <Route path="/love-you" element={<LoveYou />} />
