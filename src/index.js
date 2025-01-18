@@ -9,7 +9,7 @@ import Rejection from "./pages/Rejection";
 import "./index.css";
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/are-you-sure" element={<AreYouSure />} />
