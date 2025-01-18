@@ -1,7 +1,7 @@
 {
   "name": "message",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "/message",
   "dependencies": {
     "react": "^18.0.0",
